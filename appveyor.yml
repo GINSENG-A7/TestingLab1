@@ -1,0 +1,4 @@
+version: '1.0.{build}'
+assembly_info:
+  patch: true
+  file: Program.cs
