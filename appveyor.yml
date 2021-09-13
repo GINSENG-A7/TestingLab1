@@ -2,3 +2,14 @@ version: '1.0.{build}'
 assembly_info:
   patch: true
   file: Program.cs
+language: csharp
+mono: none
+sudo: required
+dist: xenial
+dotnet: 5.0.300
+os:
+- windows
+script:
+    - dotnet restore
+    - dotnet build
+    - dotnet test test/NosCore.Tests/NosCore.Tests.csproj
