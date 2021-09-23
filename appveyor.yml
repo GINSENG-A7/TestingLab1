@@ -1,10 +1,10 @@
 version: '1.0.{build}'
-assembly_info:
-  patch: true
-  file: TestingLab1.cs
+#assembly_info:
+#  patch: true
+#  file: '**\*.csproj'
 dotnet_csproj:
   patch: true
-  file: 'TestingLab1.csproj'
+  file: '**\*.csproj'
   version: 5.0.6
   #package_version: '{version}'
   #assembly_version: '{version}'
