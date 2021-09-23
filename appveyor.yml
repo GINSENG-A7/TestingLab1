@@ -5,11 +5,11 @@ version: '1.0.{build}'
 dotnet_csproj:
   patch: true
   file: '**\*.csproj'
-  version: 5.0.6
-  #package_version: '{version}'
-  #assembly_version: '{version}'
-  #file_version: '{version}'
-  #informational_version: '{version}'
+  version: 5.0.3
+  package_version: '{version}'
+  assembly_version: '{version}'
+  file_version: '{version}'
+  informational_version: '{version}'
 build:
   project: TestingLab1.sln
 #dotnet: 5.0.300
