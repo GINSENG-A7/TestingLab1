@@ -11,7 +11,8 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 build:
-  project: TestingLab1.sln
+  #project: TestingLab1.sln
+
 #dotnet: 5.0.300
 #script:
 #    - dotnet restore
