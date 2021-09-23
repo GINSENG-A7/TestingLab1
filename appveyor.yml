@@ -4,14 +4,14 @@ version: '1.0.{build}'
 #  file: '**\*.csproj'
 dotnet_csproj:
   patch: true
-  file: '**\*.csproj'
+  file: 'TestingLab1.csproj'
   version: 5.0.3
   package_version: '{version}'
   assembly_version: '{version}'
   file_version: '{version}'
   informational_version: '{version}'
 build:
-  #project: TestingLab1.sln
+  project: TestingLab1.sln
 
 #dotnet: 5.0.300
 #script:
