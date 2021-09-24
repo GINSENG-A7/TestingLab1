@@ -12,6 +12,8 @@ dotnet_csproj:
   informational_version: '{version}'
 build:
   project: TestingLab1.sln
+before_build:
+  - nuget restore
 
 #dotnet: 5.0.300
 #script:
