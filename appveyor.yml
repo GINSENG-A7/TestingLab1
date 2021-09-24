@@ -14,9 +14,6 @@ build:
   project: TestingLab1.sln
 before_build:
   - nuget restore
-
-#dotnet: 5.0.300
-#script:
-#    - dotnet restore
-#    - dotnet build
-#    - dotnet test TestingLab1.csproj
+test:
+  assemblies:
+    - 'Tests.cs'
