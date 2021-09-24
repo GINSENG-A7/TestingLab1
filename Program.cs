@@ -28,13 +28,13 @@ namespace TestingLab1
         //}
     //}
 
-    abstract class Figure
+    public abstract class Figure
     {
         public abstract double Surface();
         public abstract double Perimeter();
         public abstract string getName();
     }
-    class Rectangle : Figure
+    public class Rectangle : Figure
     {
         int width;
         int height;
@@ -58,7 +58,7 @@ namespace TestingLab1
             return p;
         }
     }
-    class EquilateralTriangle : Figure
+    public class EquilateralTriangle : Figure
     {
         int length;
         public override string getName()
@@ -80,7 +80,7 @@ namespace TestingLab1
             return p;
         }
     }
-    class Circle : Figure
+    public class Circle : Figure
     {
         int radius;
         public Circle(int radius)
